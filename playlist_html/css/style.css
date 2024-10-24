@@ -1,0 +1,56 @@
+
+body{
+    background-color: rgb(6, 6, 126);
+}
+
+
+
+.navbar{
+    background-color: black;
+    padding: 20px;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    
+}
+
+.textonav{
+    color: aliceblue;
+}
+
+span{
+    color: blue;
+}
+
+ul{
+    margin-top: 120px ;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: rgb(6, 6, 126);
+    gap: 50px;
+}
+
+
+li{
+    display: grid;
+    background-color: rgb(0, 0, 0);
+    height: 260px;
+    width: 15%;
+    padding: 20px;
+    list-style: none;
+    z-index: 0;
+}
+
+h2{
+    color: aliceblue;
+}
+
+
+
